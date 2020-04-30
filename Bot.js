@@ -17,7 +17,8 @@ export class Bot {
     const trainSkills = async () => {
       const screenshot = await takeScreenshot();
       const exerciseDummyPosition = await this.objectFinder.findExerciseDummy(screenshot);
-      moveMouse(35, 986);
+      const exerciseWeaponHotkeyPosition = { x: 35, y: 986 };
+      moveMouse(exerciseWeaponHotkeyPosition.x, exerciseWeaponHotkeyPosition.y);
       await pause(1000, 2000);
       click();
       // pressKey(this.settings.exerciseWeaponKey);
