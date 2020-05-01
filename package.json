@@ -11,7 +11,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "opencv4nodejs": "^5.5.0",
     "screenshot-desktop": "^1.11.0",
     "shelljs": "^0.8.3"
   }
