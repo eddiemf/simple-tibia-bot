@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "screenshot-desktop": "^1.11.0",
     "shelljs": "^0.8.3"
   }
